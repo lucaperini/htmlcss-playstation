@@ -2,10 +2,6 @@ body{
     font-family: Arial, sans-serif;
 }
 
-h1{
-    font-size:3rem
-}
-
 .top-header{
     width:100%;
     height: 35px;
@@ -27,17 +23,9 @@ h1{
     color:black;
 }
 
-section#jumbo{
-    width:100%;
-    height:85%;
-    background-size:cover;
-    background: url(../img/jumbo-bg.png) no-repeat center center;
-}
-
 .jumbo-content{
     position:absolute;
     bottom:10%;
-        
 }
 
 .returnal-banner{
@@ -65,3 +53,20 @@ section#jumbo{
     font-size:1.5rem;
 }
 
+.game-card{
+    width:184px;
+    border-radius:20px;
+    margin:0 1.5rem 2rem 0;
+}
+
+.game-card:hover, .my-active{
+    border: 2px solid cornflowerblue;
+    padding:3px;
+}
+
+section#jumbo{
+    width:100%;
+    height:85%;
+    background-size:cover;
+    background: url(../img/jumbo-bg.png) no-repeat center center;
+}
