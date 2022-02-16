@@ -10,8 +10,9 @@ body{
 
 .sony-logo{
     width:75px;
+    height:100%;
     float:right;
-}
+    }
 
 .my-bg-nav{
     background-color:white;
