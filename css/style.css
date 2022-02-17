@@ -2,10 +2,21 @@ body{
     font-family: Arial, sans-serif;
 }
 
+footer{
+    background-color: rgb(25, 66, 150);
+    /* height:600px; */
+}
+
+span{
+    font-size:.6rem;
+    margin-left:5px;
+}
+
 .top-header{
     width:100%;
     height: 35px;
     background-color:black;
+    
 }
 
 .sony-logo{
@@ -198,6 +209,37 @@ body{
     padding-bottom:5rem;
 }
 
+.logo-footer{
+    width:15%;
+    height:auto;
+    fill: white;
+    padding-top:5rem;
+    }
+
+.sie-logo-footer{
+    width:5%;
+    height:auto;
+}
+
+.sie-text{
+    font-size:.7rem;
+    padding-bottom:7rem;
+}
+
+.footer-bottom{
+    margin-left: 4.2rem;
+}
+
+.link-foot{
+    list-style-type: none;
+    padding-top:50%;
+}
+
+.link-foot a{
+    text-decoration: none;
+    font-size:.7rem;
+}
+
 section#jumbo{
     width:100%;
     height:85%;
@@ -238,6 +280,3 @@ section#playstation-now{
     background-color: rgb(23, 28, 57)
 }
 
-/* section#playstation-store{
-    
-} */
