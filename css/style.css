@@ -90,10 +90,15 @@ span{
     
 }
 
+.ps-claim{
+    padding-top:10rem;
+
+}
+
 .playstation-thumb{
     width:184px;
     height:auto;
-    vertical-align:middle;
+   
 }
 
 .playstation-thumb-dual{
@@ -163,7 +168,7 @@ span{
 }
 
 .plus-description{
-    padding-top:6rem;
+    padding-top:4rem;
 }
 
 .ps-store-img {
@@ -195,7 +200,7 @@ span{
 }
 
 .social-logo{
-    width:calc(100% / 8);
+    width:180px;
     height:auto;
     margin-right:1.5rem;
 }
@@ -261,7 +266,7 @@ section#it-takes-two{
 }
 
 section#card {
-    margin-bottom:10rem;
+    margin-bottom:8rem;
 }
 
 section#nuove-uscite{
