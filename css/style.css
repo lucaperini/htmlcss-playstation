@@ -37,6 +37,12 @@ span{
 
 .returnal-banner{
     width:70%;
+    height:auto;
+}
+
+.it-takes-two-banner{
+    width:70%;
+    height:auto;
 }
 
 .my-btn{
@@ -53,7 +59,7 @@ span{
     border-radius:20px;
     padding:8px 20px;
     text-decoration:none;
-    color:white !important;
+    color:white;
 }
 
 .my-btn-plus{
@@ -90,22 +96,11 @@ span{
     
 }
 
-.ps-claim{
-    padding-top:10rem;
-
-}
-
 .playstation-thumb{
-    width:184px;
+    width:100%;
     height:auto;
-   
 }
 
-.playstation-thumb-dual{
-    width:190px;
-    height:auto;
-    padding-top:4.8rem;
-}
 
 .playstation-thumb-text{
     font-size:.8rem;
@@ -135,26 +130,25 @@ span{
 }
 
 .esplora-foto{
-    width:30%;
+    width:100%;
     height:auto;
 }
 
 .esplora-title{
     padding-top:5rem;
-    width:30rem;
     text-align:center;
-
 }
 
 .esplora-description{
     padding-bottom:4rem;
     text-align:center;
-    width:30rem;
+    
+  
 }
 
 .esplora-content{
     padding-bottom:5rem;
-    width:20rem;
+    width:25rem;
 }
 
 .plus-logo{
@@ -163,17 +157,18 @@ span{
 }
 
 .plus-game-img{
-    width:100%;
+    width:90%;
     height:auto;
 }
 
 .plus-description{
-    padding-top:4rem;
+    padding-top:6rem;
 }
 
 .ps-store-img {
     width:100%;
     height:auto;
+    padding-bottom:2rem;
 }
 
 .store-content-top{
@@ -199,20 +194,20 @@ span{
     height:auto;
 }
 
-.social-logo{
-    width:180px;
+/* .social-logo{
+    width:100%;
     height:auto;
-    margin-right:1.5rem;
-}
+} */
 
 .social-title{
     padding-top:5rem;
     padding-bottom:5rem;
+    
 }
 
-.social-img{
+/* .social-img{
     padding-bottom:5rem;
-}
+} */
 
 .logo-footer{
     width:15%;
@@ -266,7 +261,7 @@ section#it-takes-two{
 }
 
 section#card {
-    margin-bottom:8rem;
+    margin-bottom:10rem;
 }
 
 section#nuove-uscite{
@@ -275,13 +270,16 @@ section#nuove-uscite{
 
 section#playstation-plus{
     width:100%;
-    height:466px;
+    
     background-color: rgb(190, 188, 187)
 }
 
 section#playstation-now{
     width:100%;
-    height:530px;
+    
     background-color: rgb(23, 28, 57)
 }
 
+section#ps-social{
+    padding-bottom:5rem;
+}
