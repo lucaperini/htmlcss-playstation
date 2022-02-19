@@ -4,7 +4,6 @@ body{
 
 footer{
     background-color: rgb(25, 66, 150);
-    /* height:600px; */
 }
 
 span{
@@ -25,48 +24,43 @@ span{
     float:right;
     }
 
+.my-btn{
+    border-radius:20px;
+    padding:8px 15px;
+    text-decoration:none;
+}
+    
+.my-nav-btn{
+    border-radius:20px;
+    padding:.5rem 1rem;
+    text-decoration:none;
+}
+    
+.my-btn-plus{
+    background-color:rgb(233, 222, 222);
+    border-radius:20px;
+    padding:8px 20px;
+    text-decoration:none;
+}
+
 .my-bg-nav{
     background-color:white;
 }
 
 .navbar a{
     margin-right:1rem;
-    font-size: .9rem;
+    font-size:.9rem;
     color:black;
 }
 
 .returnal-banner{
-    width:70%;
+    width:20%;
     height:auto;
 }
 
 .it-takes-two-banner{
-    width:70%;
+    width:60%;
     height:auto;
-}
-
-.my-btn{
-    background-color:red;
-    color:white;
-    border-radius:20px;
-    padding:8px 15px;
-    text-decoration:none;
-    color:black;    
-}
-
-.my-nav-btn{
-    background-color:black;
-    border-radius:20px;
-    padding:8px 20px;
-    text-decoration:none;
-    color:white;
-}
-
-.my-btn-plus{
-    background-color:rgb(233, 222, 222);
-    border-radius:20px;
-    padding:8px 20px;
-    text-decoration:none;
     
 }
 
@@ -75,7 +69,9 @@ span{
 }
 
 .nav-icon{
-    font-size:1.5rem;
+    font-size:1.2rem;
+    margin-top:.8rem;
+
 }
 
 .game-card{
@@ -83,7 +79,6 @@ span{
     border-radius:20px;
     margin-right:1.5rem;
 }
-
 
 .game-card:hover, .my-active{
     border: 2px solid cornflowerblue;
@@ -100,7 +95,6 @@ span{
     width:100%;
     height:auto;
 }
-
 
 .playstation-thumb-text{
     font-size:.8rem;
@@ -120,8 +114,7 @@ span{
 
 .new-title-text{
     font-size:.8rem;
-    text-align:left;
-    margin-left:.5rem;
+    margin-left:1.5rem;
     
 }
 
@@ -142,8 +135,6 @@ span{
 .esplora-description{
     padding-bottom:4rem;
     text-align:center;
-    
-  
 }
 
 .esplora-content{
@@ -161,10 +152,6 @@ span{
     height:auto;
 }
 
-.plus-description{
-    padding-top:6rem;
-}
-
 .ps-store-img {
     width:100%;
     height:auto;
@@ -175,18 +162,8 @@ span{
     padding-top:5rem;
 }
 
-.store-content-bottom{
-    padding-bottom:5rem;
-    
-}
-
 .text-content-top{
     margin-bottom:4rem;
-}
-
-.now-logo{
-    width:60%;
-    height:auto;
 }
 
 .plus-now-img{
@@ -194,45 +171,28 @@ span{
     height:auto;
 }
 
-/* .social-logo{
-    width:100%;
+.now-logo{
+    width:60%;
     height:auto;
-} */
-
-.social-title{
-    padding-top:5rem;
-    padding-bottom:5rem;
-    
 }
 
-/* .social-img{
-    padding-bottom:5rem;
-} */
+.social-logo{
+    width:200px;
+    height:200px;
+    margin-bottom:3rem;
+}
 
-.logo-footer{
-    width:15%;
-    height:auto;
-    fill: white;
-    padding-top:5rem;
-    }
+.social-title{
+    min-width:400px;
+}
 
-.sie-logo-footer{
-    width:5%;
-    height:auto;
+.sie-logo{
+    width:5rem;
 }
 
 .sie-text{
-    font-size:.7rem;
-    padding-bottom:7rem;
-}
-
-.footer-bottom{
-    margin-left: 4.2rem;
-}
-
-.link-foot{
-    list-style-type: none;
-    padding-top:50%;
+    font-size:.8rem;
+    
 }
 
 .link-foot a{
@@ -241,11 +201,11 @@ span{
 }
 
 section#jumbo{
-    width:100%;
-    height:85%;
     background-size:cover;
-    background: url(../img/jumbo-bg.png) no-repeat center center;
-    padding:17rem 5rem 0 3rem;
+    background-image: url(../img/jumbo-bg.png);
+    background-position:center;
+    padding: 15rem 0rem 6rem;
+    margin-top:110px;
 }
 
 section#playstation .ps-photo{
@@ -253,11 +213,10 @@ section#playstation .ps-photo{
 }
 
 section#it-takes-two{
-    width:100%;
-    height:100%;
-    background-size:contain;
-    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center center;
-    padding:8rem 5rem 0 3rem;
+    background-size:cover;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position:center;
+    padding: 15rem 0rem 6rem;
 }
 
 section#card {
@@ -270,16 +229,14 @@ section#nuove-uscite{
 
 section#playstation-plus{
     width:100%;
-    
     background-color: rgb(190, 188, 187)
 }
 
 section#playstation-now{
     width:100%;
-    
     background-color: rgb(23, 28, 57)
 }
 
 section#ps-social{
-    padding-bottom:5rem;
+    margin-bottom:8rem;
 }
