@@ -54,7 +54,7 @@ span{
 }
 
 .returnal-banner{
-    width:20%;
+    width:100%;
     height:auto;
 }
 
@@ -204,7 +204,7 @@ section#jumbo{
     background-size:cover;
     background-image: url(../img/jumbo-bg.png);
     background-position:center;
-    padding: 15rem 0rem 6rem;
+    padding: 15rem 3rem 6rem;
     margin-top:110px;
 }
 
@@ -212,11 +212,15 @@ section#playstation .ps-photo{
     padding-right:2rem;
 }
 
+section#playstation{
+    padding-bottom:5rem;
+}
+
 section#it-takes-two{
     background-size:cover;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position:center;
-    padding: 15rem 0rem 6rem;
+    padding: 3rem 4rem 6rem;
 }
 
 section#card {
@@ -238,5 +242,5 @@ section#playstation-now{
 }
 
 section#ps-social{
-    margin-bottom:8rem;
+    padding:5rem 0;
 }
